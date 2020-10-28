@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:#d6d6d6;
+}
+
+header {
+    margin:1rem;
+}
+
+header h1 {
+    text-align: center;
+}
+
+#app {
+    width:60%;
+    margin:50px auto;
+}
+
+#app form {
+    display:flex;
+    flex-direction: column;
+}
+
+#app form label,
+#app form input,
+#app form button {
+    width:100%;
+    line-height: 30px;
+    margin:10px 0;
+}
